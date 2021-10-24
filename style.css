@@ -1,57 +1,59 @@
-.container{
-    width: 800px;
+.container {
+    width: 1000px;
     margin: auto;
     background-color: white;
 }
 
-body{
-    font: 15px/18px arial, sans-serif;
+body {
+    font: 20px/15px arial;
     background-color: beige;
 }
 
-.header {
+header {
     padding: 10px;
 }
 
 .header .judul {
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 30px;
+    font: bold;
+    padding: 10px;
 }
 
 .header ul li {
-   display: inline-block;
-   margin-top: 20px;
-   margin-right: 10px;
+    display: inline-block;
+    margin-left: 80px;
+    padding-left: 0%;
+    padding: 10px;
 }
 
 .header a {
-   text-decoration: none;
-   color: salmon;
-   padding: 3px;
+    text-decoration: none;
+    color: salmon;
+    padding: 3px;
 }
 
 .header a:hover {
-    background-color: lightskyblue;
+    background-color: blue;
     color: white;
 }
 
 .hero {
     height: 350px;
-    background-image: url(img/hero.jpg);
+    background-image: url(img/hero2.jpg);
     background-size: cover;
     background-position: 0 -100px;
-    border-top: 5px solid lightskyblue;
+    border-top: 5px solid lightblue;
     border-bottom: 5px solid salmon;
 }
 
-.content h2 {
+.content .h2 {
     font-size: 28px;
     font-weight: bold;
 }
 
 .content .penulis {
-    font-size: 11px;
-    margin-top: -5px;
+    font-size: 15px;
+    margin-top: -10px;
 }
 
 .content .penulis a {
@@ -63,13 +65,23 @@ body{
     margin-bottom: 20px;
 }
 
+.hero3 {
+    height: 350px;
+    background-image: url(img/hero3.jpg);
+    background-size: cover;
+    background-position: 0 -100px;
+    border-top: 5px solid lightblue;
+    border-bottom: 5px solid salmon;
+}
+
 .footer {
-    background-color: #333;
+    background-color: silver;
     padding: 10px;
 }
 
 .footer .copy {
-    color: beige;
     text-align: center;
-    font-size: 12px;
+    color: black;
+    font-size: 15px;
 }
+
